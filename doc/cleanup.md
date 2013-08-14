@@ -22,7 +22,7 @@ Clean up is handled by `lib/cleanup.php`. Major parts include:
 
 Root relative URLs are enabled from `lib/config.php`.
 
-Return URLs such as `/assets/css/app.css` instead of `http://example.com/assets/css/app.css`.
+Return URLs such as `/assets/stylesheets/app.css` instead of `http://example.com/assets/stylesheets/app.css`.
 
 ### Wrap embedded media as suggested by Readability
 

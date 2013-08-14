@@ -7,9 +7,9 @@ Rewrites are handled by `lib/rewrites.php`. Rewrites currently do not happen for
 
 Rewrite:
 
-1. `/wp-content/themes/themename/assets/css/` to `/assets/css/`
-2. `/wp-content/themes/themename/assets/js/` to `/assets/js/`
-3. `/wp-content/themes/themename/assets/img/` to `/assets/img/`
+1. `/wp-content/themes/themename/assets/stylesheets/` to `/assets/stylesheets/`
+2. `/wp-content/themes/themename/assets/javascripts/` to `/assets/javascripts/`
+3. `/wp-content/themes/themename/assets/images/` to `/assets/images/`
 4. `/wp-content/plugins/` -> `/plugins/`
 
 ## Alternative server configurations

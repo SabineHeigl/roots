@@ -55,9 +55,9 @@ Class which provides a simple configuration interface to define what pages you w
 
 Stylesheets are enqueued in the following order:
 
-1. `/theme/assets/css/bootstrap.css`
-2. `/theme/assets/css/bootstrap-responsive.css`
-3. `/theme/assets/css/app.css`
+1. `/theme/assets/stylesheets/bootstrap.css`
+2. `/theme/assets/stylesheets/bootstrap-responsive.css`
+3. `/theme/assets/stylesheets/app.css`
 4. `/child-theme/style.css` (if a child theme is activated)
 
 `app.css` should be used for your site specific styling.
@@ -72,9 +72,9 @@ If you're using LESS, make sure you compile the files to the proper locations:
 JavaScript is loaded in the following order:
 
 1. `jquery-1.9.1.min.js` via Google CDN with local fallback
-2. `/theme/assets/js/vendor/modernizr-2.6.2.min.js`
-3. `/theme/assets/js/plugins.js` (in footer)
-4. `/theme/assets/js/main.js` (in footer)
+2. `/theme/assets/javascripts/vendor/modernizr-2.6.2.min.js`
+3. `/theme/assets/javascripts/plugins.js` (in footer)
+4. `/theme/assets/javascripts/main.js` (in footer)
 
 jQuery is loaded using the same method from HTML5 Boilerplate: grab Google CDN's jQuery, with a protocol relative URL; fallback to local if offline. It's kept in the header instead of footer to avoid conflicts with plugins.
 

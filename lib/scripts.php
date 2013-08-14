@@ -3,8 +3,8 @@
  * Enqueue scripts and stylesheets
  *
  * Enqueue stylesheets in the following order:
- * 1. /theme/assets/css/bootstrap.css
- * 2. /theme/assets/css/app.css
+ * 1. /theme/assets/stylesheets/bootstrap.css
+ * 2. /theme/assets/stylesheets/app.css
  *
  * Enqueue scripts in the following order:
  * 1. jquery-1.10.2.min.js via Google CDN
@@ -13,8 +13,8 @@
  * 4. /theme/assets/javascripts/main.js    (in footer)
  */
 function roots_scripts() {
-  wp_enqueue_style('roots_bootstrap', get_template_directory_uri() . '/assets/css/bootstrap.css', false, null);
-  wp_enqueue_style('roots_app', get_template_directory_uri() . '/assets/css/app.css', false, null);
+  wp_enqueue_style('roots_bootstrap', get_template_directory_uri() . '/assets/stylesheets/bootstrap.css', false, null);
+  wp_enqueue_style('roots_app', get_template_directory_uri() . '/assets/stylesheets/app.css', false, null);
 
   // jQuery is loaded using the same method from HTML5 Boilerplate:
   // Grab Google CDN's latest jQuery with a protocol relative URL; fallback to local if offline

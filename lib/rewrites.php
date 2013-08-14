@@ -5,9 +5,9 @@
  * Rewrites do not happen for multisite installations or child themes
  *
  * Rewrite:
- *   /wp-content/themes/themename/assets/css/ to /assets/css/
- *   /wp-content/themes/themename/assets/js/  to /assets/js/
- *   /wp-content/themes/themename/assets/img/ to /assets/img/
+ *   /wp-content/themes/themename/assets/stylesheets/ to /assets/stylesheets/
+ *   /wp-content/themes/themename/assets/javascripts/  to /assets/javascripts/
+ *   /wp-content/themes/themename/assets/images/ to /assets/images/
  *   /wp-content/plugins/                     to /plugins/
  *
  * If you aren't using Apache, alternate configuration settings can be found in the docs.
