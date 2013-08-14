@@ -16,21 +16,6 @@ define('GOOGLE_ANALYTICS_ID', ''); // UA-XXXXX-Y
 define('POST_EXCERPT_LENGTH', 40);
 
 /**
- * .main classes
- */
-function roots_main_class() {
-  if (roots_display_sidebar()) {
-    // Classes on pages with the sidebar
-    $class = 'col-sm-8 col-md-8 col-lg-8';
-  } else {
-    // Classes on full width pages
-    $class = 'col-lg-12';
-  }
-
-  return $class;
-}
-
-/**
  * .sidebar classes
  */
 function roots_sidebar_class() {
