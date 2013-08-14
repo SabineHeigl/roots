@@ -16,13 +16,6 @@ define('GOOGLE_ANALYTICS_ID', ''); // UA-XXXXX-Y
 define('POST_EXCERPT_LENGTH', 40);
 
 /**
- * .sidebar classes
- */
-function roots_sidebar_class() {
-  return 'col-sm-4 col-md-4 col-lg-4';
-}
-
-/**
  * Define which pages shouldn't have the sidebar
  *
  * See lib/sidebar.php for more details
